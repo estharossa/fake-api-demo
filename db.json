@@ -1,38 +1,180 @@
 {
-  "person_list": [
+  "offerList": [
     {
-      "name": "John Doe",
-      "age": 30,
-      "gender": "male",
-      "occupation": "software engineer",
-      "email": "johndoe@example.com",
-      "phone": "+1234567890",
-      "address": {
-        "street": "123 Main St",
-        "city": "Anytown",
-        "state": "ST",
-        "zip": "12345",
-        "country": "USA"
-      },
-      "education": {
-        "degree": "Bachelor of Science",
-        "major": "Computer Science",
-        "school": "University of Example"
-      },
-      "skills": [
-        "Java",
-        "Python",
-        "JavaScript"
-      ],
-      "languages": [
-        "English",
-        "Spanish"
-      ],
-      "interests": [
-        "Reading",
-        "Hiking",
-        "Gaming"
-      ]
+      "id": "c4d6d3d3-6a10-4e7d-9b79-9fc29d502245",
+      "price": 24550,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "20:30",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "22-30",
+        "flightNumber": "981",
+        "airline": {
+          "name": "Air Astana",
+          "code": "KC"
+        },
+        "duration": 120
+      }
+    },
+    {
+      "id": "46e971b5-5cbf-459b-b8cd-3bb2f205e398",
+      "price": 16250,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "16:00",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "18-00",
+        "flightNumber": "991",
+        "airline": {
+          "name": "Air Astana",
+          "code": "KC"
+        },
+        "duration": 120
+      }
+    },
+    {
+      "id": "ba89dd2f-6a27-4952-8639-3a2a7235de96",
+      "price": 8990,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "09:30",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "11-10",
+        "flightNumber": "445",
+        "airline": {
+          "name": "FlyArystan",
+          "code": "KC"
+        },
+        "duration": 100
+      }
+    },
+    {
+      "id": "d2a637ae-9402-4a35-86e6-82b8a1163430",
+      "price": 14440,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "14:30",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "16-00",
+        "flightNumber": "223",
+        "airline": {
+          "name": "SCAT Airlines",
+          "code": "DV"
+        },
+        "duration": 90
+      }
+    },
+    {
+      "id": "ef948d61-198a-4620-bc2f-8549b8031aa2",
+      "price": 15100,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "18:00",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "20:15",
+        "flightNumber": "171",
+        "airline": {
+          "name": "QazaqAir",
+          "code": "IQ"
+        },
+        "duration": 135
+      }
+    },
+    {
+      "id": "ddbb74cb-5c07-4b73-bd75-d47abf76a8d5",
+      "price": 20000,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "12:00",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "14-00",
+        "flightNumber": "551",
+        "airline": {
+          "name": "FlyArystan",
+          "code": "KC"
+        },
+        "duration": 120
+      }
+    },
+    {
+      "id": "e59f255a-05e4-4a92-8d42-90c134ac84df",
+      "price": 18000,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "08:30",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "10-30",
+        "flightNumber": "223",
+        "airline": {
+          "name": "Air Astana",
+          "code": "KC"
+        },
+        "duration": 120
+      }
+    },
+    {
+      "id": "d0a9f3da-3fa9-4093-8edf-69ffcb66a9f2",
+      "price": 17500,
+      "flight": {
+        "departureLocation": {
+          "cityName": "Алматы",
+          "code": "ALA"
+        },
+        "departureTimeInfo": "17:30",
+        "arrivalLocation": {
+          "cityName": "Астана",
+          "code": "NQZ"
+        },
+        "arrivalTimeInfo": "19-30",
+        "flightNumber": "331",
+        "airline": {
+          "name": "SCAT Airlines",
+          "code": "DV"
+        },
+        "duration": 120
+      }
     }
   ]
 }
